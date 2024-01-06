@@ -1,0 +1,11 @@
+.headerwrapper {
+    display: flex;
+}
+
+.contact {
+    flex: 0 0 60%;
+}
+
+.social {
+    flex: 0 0 40%;
+}

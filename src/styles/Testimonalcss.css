@@ -1,0 +1,7 @@
+.testimonal {
+    background-image: url("./../assests/testimonal/anthonygrouped.svg");
+    height: 80vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

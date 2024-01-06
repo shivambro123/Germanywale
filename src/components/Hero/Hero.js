@@ -12,16 +12,16 @@ import lufthansa from "./../../assests/Lufthansa_Logo_2018.svg";
 const Hero = () => {
   return (
     <>
-      <div className="herowrapper">
+      <div className="herowrapper" id="first">
         <Container className="py-20">
-          <Row className="p-4 h-full">
-            <Col lg={5} className="hero_content">
+          <Row className="px-4 py-4 h-full">
+            <Col lg={5} md={6} className="hero_content">
               <div className="mb-4">
                 Empowering dreams of
                 <h2 className="studycontent">Studying in Germany</h2>
                 <button className="callbtn">Call for FREE counselling</button>
               </div>
-              <div className="my-5 flex items-center">
+              <div className="mb-6 flex items-center">
                 <img src={studentsgroup} alt="studentsgroup" />
                 <p className="text-black guranteewrapper">
                   {" "}
@@ -43,7 +43,11 @@ const Hero = () => {
                 <img src={lufthansa} alt="lufthansa" />
               </div>
             </Col>
-            <Col lg={7} className="flex justify-center align-middle h-3/4 ">
+            <Col
+              lg={7}
+              md={6}
+              className="flex justify-center align-middle h-3/4 "
+            >
               <img src={coverimage} alt="coverimage" className="coverimage" />
             </Col>
           </Row>

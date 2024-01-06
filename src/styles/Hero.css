@@ -1,6 +1,6 @@
 .herowrapper {
     background-image: url('./../assests//hero_background2.svg');
-    background-position: center;
+    background-position: right;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -14,7 +14,7 @@
 
 .hero_content .studycontent {
     font-size: 40px;
-    background: -webkit-linear-gradient(#EA7D06, #f1810a);
+    background: -webkit-linear-gradient(#c4915b, #f1810a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -40,4 +40,4 @@
     -webkit-text-fill-color: transparent;
 }
 
-.coverimage {}
+@media screen and (min-width:320px) and (max-width:480px) {}
